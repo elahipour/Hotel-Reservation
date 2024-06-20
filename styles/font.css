@@ -1,0 +1,22 @@
+@font-face {
+  font-family: open_sans;
+  src: url(../assets/fonts/OpenSans-Regular.ttf) format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: average_sans;
+  src: url(../assets/fonts/AverageSans-Regular.ttf) format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: work_sans;
+  src: url(../assets/fonts/WorkSans-Regular.ttf) format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: merriweather;
+  src: url(../assets/fonts/Merriweather-Regular.ttf) format("truetype");
+  font-weight: 400;
+}

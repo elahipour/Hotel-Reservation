@@ -1,0 +1,891 @@
+@media screen and (max-width: 576px) {
+  .wrapper {
+    max-width: 576px;
+  }
+  #topmenu {
+    display: none;
+  }
+  #topmenu_mobile {
+    display: block;
+    width: 576px;
+  }
+
+  .buttons {
+    gap: 15px;
+    width: fit-content;
+  }
+  .buttons button {
+    width: 180px;
+    font-size: 1.4rem;
+    height: 55px;
+  }
+  header {
+    max-width: 576px;
+    height: 1100px;
+    gap: 10px;
+    transition: all 1s ease;
+  }
+  header > div:nth-child(2) {
+    flex-direction: column;
+  }
+
+  header #tower_img_and_circles > img {
+    width: 270px;
+    top: 600px;
+    left: 200px;
+  }
+  #big_circle {
+    top: 550px;
+    left: 80px;
+  }
+  #discover_hotel {
+    width: 700px;
+  }
+  #topmenu_mobile > #items_container {
+    max-width: 376px;
+  }
+  header #tower_img_and_circles > #chart > img {
+    top: 800px;
+    left: 0px;
+    object-fit: contain;
+  }
+  header #payment {
+    top: 600px;
+    left: 440px;
+    box-shadow: 1px 2px 10px 2px rgb(255, 234, 234);
+  }
+  header .small_circle_1 {
+    left: 150px;
+    top: 580px;
+  }
+  header .small_circle_2 {
+    left: 180px;
+    top: 650px;
+  }
+  header .small_circle_3 {
+    left: 420px;
+    top: 570px;
+  }
+  header .small_circle_4 {
+    left: 450px;
+    top: 600px;
+  }
+  header #discover_hotel img {
+    width: 55px;
+    height: 55px;
+  }
+  header #discover_hotel {
+    max-width: 576px;
+    margin: auto;
+    padding: 0 40px;
+  }
+  header #discover_hotel span {
+    font-size: 1.1rem;
+    font-weight: 800;
+  }
+  #items_container > ul > li button {
+    font-size: 1.4rem;
+  }
+  .check_availability {
+    height: fit-content;
+    max-width: 556px;
+    margin: auto;
+  }
+  .check_availability > div:first-child > h2 {
+    margin: 0;
+    width: 100%;
+  }
+  .check_availability > div:first-child > p {
+    margin: 0;
+    width: 100%;
+  }
+  .check_availability > div:nth-child(2) {
+    flex-direction: column;
+    width: 100%;
+  }
+  .check_availability #form_container {
+    width: 100%;
+    display: grid;
+    place-items: center;
+  }
+  .check_availability #check_form {
+    width: fit-content;
+    height: fit-content;
+  }
+  .check_availability #check_form input {
+    width: 100%;
+    height: 75px;
+  }
+  .check_availability #check_form select {
+    width: 100%;
+    height: 75px;
+  }
+  .check_availability #check_form button {
+    width: 400px;
+    height: 75px;
+  }
+  .check_availability_img_container {
+    width: 100%;
+    height: fit-content;
+  }
+  .check_availability_img_container > img {
+    width: 100%;
+    height: auto;
+  }
+  .check_availability #check_form div:first-child::after {
+    content: url(../assets/images/section1/section_1_date_icon\ -\ mobile_size.svg);
+  }
+  .check_availability #check_form div:nth-child(2)::after {
+    content: url(../assets/images/section1/section_1_date_icon\ -\ mobile_size.svg);
+  }
+  .check_availability #check_form #select_container::after {
+    content: url(../assets/images/section1/down_arrow\ -mobile_size.svg);
+    right: 5px;
+    top: 50px;
+    width: 60px;
+  }
+  .our_services {
+    max-width: 556px;
+  }
+  #our_popular_room {
+    height: fit-content;
+    max-width: 556px;
+  }
+  #our_popular_room > #cards {
+    flex-direction: column;
+    gap: 15px;
+  }
+  #our_popular_room > #cards > .card {
+    flex-direction: row;
+  }
+  #our_popular_room > #cards > .card > img {
+    width: auto;
+    height: 150px;
+    border-radius: 8px;
+    object-fit: contain;
+    flex: 1;
+  }
+  #our_popular_room > #cards .card_content {
+    height: 150px;
+    justify-content: space-between;
+    border: none;
+    box-shadow: 0 0 30px 3px #828282;
+    flex: 3;
+  }
+  #our_popular_room > #cards .card_content > div > i > span {
+    font-weight: 600;
+  }
+
+  .our_services {
+    height: fit-content;
+  }
+  #info {
+    max-width: 556px;
+  }
+  #services {
+    grid-template-columns: 1fr;
+    max-width: 556px;
+  }
+  #services > .service_card > .header > h2 {
+    line-height: 55px;
+    font-weight: 400;
+    font-size: 1.7rem;
+  }
+  #services > .service_card > .header > img {
+    width: 64px;
+  }
+  #services > .service_card {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  #services > .service_card > p {
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+  #popular_rooms_and_services > #info {
+    margin-top: 350px;
+  }
+  #discover_history {
+    flex-direction: column-reverse;
+    max-width: 556px;
+    height: 1200px;
+  }
+  #discover_history > div:last-child {
+    width: 100%;
+    height: 400px;
+  }
+  #discover_history > div:first-child > div {
+    width: 100%;
+    height: 400px;
+  }
+  #discover_history > div:first-child > div p {
+    font-size: 1.2rem;
+  }
+  #discover_history > div:last-child {
+    background-size: cover;
+    background-position: center;
+  }
+  #discover_history .buttons > i > img {
+    width: 55px;
+    height: 55px;
+  }
+  #discover_history .buttons > i > span {
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+
+  #happy_customers {
+    width: 556px;
+  }
+  #happy_customers > div:first-child {
+    max-width: 100%;
+  }
+  #happy_customers .customer span {
+    font-family: work_sans;
+    font-size: 18px;
+  }
+  #happy_customers > #customers > section > div {
+    width: 556px;
+  }
+  #happy_customers .customer {
+    height: fit-content;
+    padding: 30px;
+    align-self: baseline;
+  }
+  #happy_customers .customer p {
+    width: 350px;
+    color: #404040 !important;
+    font-weight: bold !important;
+    text-shadow: 0px 1px 0px #7d7d7d;
+    letter-spacing: 3px !important;
+    opacity: 0.7;
+  }
+  main {
+    max-width: 576px;
+    overflow: hidden;
+  }
+
+  #happy_customer_2 {
+    border-radius: 0;
+    position: absolute;
+    top: 0px;
+    width: 150px;
+    height: 150px;
+    background-size: 50px;
+  }
+  #customers #happy_customer_2 > div {
+    width: 460px;
+    height: 435px;
+    background-size: cover;
+    border-radius: 0;
+    opacity: 0.5;
+  }
+  #happy_customers > #customers .customer {
+    width: 100%;
+  }
+  #happy_customers > #customers > section > div:first-child {
+    display: none;
+  }
+  #happy_customers > #customers > section > div:nth-child(3) {
+    display: none;
+  }
+  #happy_customer_1 > div,
+  #happy_customer_2 > div,
+  #happy_customer_3 > div {
+    width: 120px;
+    height: 120px;
+    background-size: contain;
+  }
+  #happy_customers .customer p {
+    font-family: merriweather;
+    font-size: 1.2rem;
+    font-weight: 200;
+    line-height: 35px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: rgba(109, 117, 137, 1);
+  }
+  #happy_customers > #customers > section > div {
+    height: 435px;
+  }
+
+  #hotel_blog {
+    max-width: 556px;
+    height: fit-content;
+  }
+  #hotel_blog .cards {
+    max-width: 556px;
+    overflow: hidden;
+  }
+
+  #hotel_blog .cards > .card > div:last-child {
+    height: 100%;
+    padding: 10px 20px;
+  }
+  #hotel_blog .cards > .card .content {
+    height: 75% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  #hotel_blog .cards > .card:first-child {
+    display: none;
+  }
+  /* #hotel_blog .cards > .card:nth-child(2){
+} */
+  #hotel_blog .cards > .card:last-child {
+    display: none;
+  }
+  #hotel_blog .cards > .card {
+    display: flex;
+    height: 316px;
+    width: 100%;
+  }
+  #subscribe {
+    max-width: 556px;
+  }
+  #subscribe h5 {
+    font-size: 1.5rem;
+  }
+  #subscribe h3 {
+    font-size: 2.2rem;
+  }
+  #subscribe > form > div > button {
+    width: 130px;
+    height: 45px;
+    font-size: 1.1rem;
+    position: absolute;
+    right: 0;
+    border-radius: 6px;
+    background: rgba(136, 156, 185, 1);
+    box-shadow: -3px 2px 12px 0px rgba(0, 0, 0, 0.15);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+  }
+  #subscribe > form > div > input {
+    font-size: 1.1rem;
+  }
+  footer > #links {
+    max-width: 556px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    height: 700px;
+  }
+  #links h2 {
+    font-size: 2.3rem;
+  }
+  #links h4 {
+    font-size: 1.7rem;
+  }
+  #links span {
+    font-size: 1.2rem;
+  }
+  #links p {
+    font-size: 1.2rem;
+    line-height: 30px;
+  }
+  .social_links img {
+    width: 30px;
+    height: 30px;
+  }
+  .social_links ul {
+    gap: 25px;
+  }
+  #copyright {
+    max-width: 556px;
+    padding: 15px 10px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  #topmenu {
+    display: none;
+  }
+  #topmenu_mobile {
+    display: block;
+    width: 100%;
+  }
+
+  .check_availability_img_container {
+    max-width: 500px;
+    overflow: hidden;
+  }
+  .check_availability_img_container > img {
+    max-width: 700px;
+    margin-left: -150px;
+  }
+  .navbar {
+    max-width: 400px;
+  }
+  #topmenu .reservation_btn {
+    width: 110px;
+  }
+  #big_circle {
+    left: 380px;
+    top: 220px;
+    width: 360px;
+    height: 360px;
+  }
+  header #tower_img_and_circles > img {
+    width: 270px;
+    left: 420px;
+    top: 260px;
+  }
+  header .small_circle_1 {
+    top: 200px;
+  }
+  header .small_circle_2 {
+    left: 420px;
+  }
+  header .small_circle_3 {
+    left: 430px;
+  }
+  header .small_circle_4 {
+    left: 700px;
+    top: 550px;
+  }
+  header #tower_img_and_circles > #chart > img {
+    left: 600px;
+    top: 150px;
+    width: 150px;
+  }
+  header #payment {
+    top: 280px;
+    left: 623px;
+  }
+  header > div:first-child {
+    width: 100%;
+  }
+  header > div:nth-child(2) {
+    width: 100%;
+    padding: 0 50px 0 50px;
+  }
+  header #topmenu {
+    width: 90%;
+  }
+  main {
+    max-width: 768px;
+    overflow: hidden;
+    padding: 0 20px;
+  }
+  #our_popular_room {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #our_popular_room > h1 {
+    width: 748px;
+  }
+  #our_popular_room > p {
+    width: 748px;
+  }
+  #our_popular_room > #cards {
+    max-width: 748px;
+    margin: auto;
+    gap: 25px;
+  }
+
+  #our_popular_room > #cards > .card > img {
+    height: 200px;
+    width: auto;
+  }
+  #our_popular_room > #cards > .card h1 {
+    font-size: 1rem;
+  }
+  #our_popular_room > #cards > .card .card_content > div span {
+    font-size: 0.62rem;
+  }
+  #our_popular_room > #cards > .card .card_content > div {
+    gap: 10px;
+  }
+  .our_services {
+    width: 748px;
+    height: fit-content;
+  }
+  #services {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #info {
+    width: 708px !important;
+  }
+
+  #discover_history {
+    flex-direction: column-reverse;
+    width: 748px;
+    height: 1200px;
+  }
+  #discover_history > div:last-child {
+    width: 748px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+  }
+  #discover_history > div:first-child {
+    width: 748px;
+  }
+  #discover_history > div:first-child > div {
+    width: 748px;
+    height: 400px;
+  }
+  #discover_history > div:first-child > div p {
+    font-size: 1.2rem;
+  }
+
+  #discover_history .buttons {
+    gap: 25px;
+  }
+  #discover_history .buttons > button {
+    font-size: 1rem;
+    padding: 5px;
+    width: 200px;
+    height: 50px;
+  }
+  #discover_history .buttons > i > img {
+    width: 55px;
+    height: 55px;
+  }
+  #discover_history .buttons > i > span {
+    font-size: 1rem;
+    font-weight: 800;
+    width: 100px;
+  }
+
+  .check_availability {
+    max-width: 748px;
+    height: 694px;
+    margin: 150px auto 0 auto;
+  }
+  .check_availability > div:first-child {
+    width: 748px;
+  }
+
+  .check_availability > div:first-child > h2 {
+    width: 748px;
+    margin: 0;
+  }
+  .check_availability > div:first-child > p {
+    width: 748px;
+    text-align: center;
+    margin: auto;
+  }
+  #form_container {
+    width: fit-content;
+    height: 550px;
+  }
+
+  #check_form {
+    width: fit-content;
+    margin-left: 20px;
+  }
+  .check_availability #check_form input {
+    width: 300px;
+    height: 50px;
+  }
+  .check_availability #check_form select {
+    width: 300px;
+    height: 50px;
+  }
+  .check_availability #check_form button {
+    width: 300px;
+    height: 50px;
+  }
+
+  .check_availability #check_form div:first-child::after {
+    right: 50px;
+  }
+  .check_availability #check_form div:nth-child(2)::after {
+    right: 50px;
+  }
+  .check_availability #check_form #select_container::after {
+    right: 45px;
+    width: 30px;
+  }
+  #customers > section > div:first-child {
+    width: 300px;
+    display: none;
+  }
+  #customers > section > div:nth-child(2) {
+    width: 300px;
+  }
+  #customers > section > div:last-child {
+    width: 300px;
+    display: none;
+  }
+  #customers > section {
+    justify-content: center;
+    gap: 15px;
+  }
+  #discover_history {
+    width: 748px;
+  }
+
+  #customers {
+    width: 748px;
+  }
+  #happy_customers {
+    width: fit-content;
+  }
+  #happy_customers > #customers > section {
+    width: 748px;
+  }
+  #happy_customers > #customers .customer {
+    width: 200px;
+  }
+  #hotel_blog {
+    width: 748px;
+    height: fit-content;
+  }
+  #hotel_blog .cards {
+    width: 748px;
+    overflow: hidden;
+  }
+  #hotel_blog .cards > .card > div:last-child {
+    height: 100%;
+  }
+  #hotel_blog .cards > .card .content {
+    height: 75% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  #hotel_blog .cards > .card:first-child {
+    display: none;
+  }
+  /* #hotel_blog .cards > .card:nth-child(2){
+} */
+  #hotel_blog .cards > .card:last-child {
+    display: none;
+  }
+  #hotel_blog .cards > .card {
+    display: flex;
+    height: 316px;
+  }
+
+  #subscribe {
+    width: 748px;
+  }
+  #links {
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px dashed rgba(108, 107, 107, 0.5) !important;
+  }
+  #links > .intro p {
+    width: 190px;
+  }
+  #links > .social_links p {
+    width: 190px;
+  }
+  #links h4 {
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+  #copyright {
+    margin: 50px auto;
+    width: 768px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  #copyright > div {
+    width: 100%;
+  }
+  /* ta inja */
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  #topmenu {
+    display: flex;
+  }
+  #topmenu_mobile {
+    display: none;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1220px) {
+  main {
+    max-width: 992px;
+  }
+  .wrapper {
+    max-width: 992px;
+  }
+  #our_popular_room {
+    max-width: 992px;
+  }
+
+  #copyright {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .check_availability {
+    max-width: 992px;
+    height: 694px;
+    margin: 150px auto 0 auto;
+    height: fit-content;
+  }
+  .check_availability > div:nth-child(2) {
+    gap: 20px;
+  }
+  #our_popular_room > h1 {
+    width: 100%;
+  }
+  #our_popular_room > p {
+    width: 992px;
+  }
+  #our_popular_room > #cards {
+    gap: 15px;
+    max-width: 992px;
+  }
+  #our_popular_room > #cards > .card > img {
+    width: auto;
+    height: 220px;
+    border-radius: 8px 8px 0 0;
+  }
+  .our_services {
+    width: 992px;
+  }
+  #discover_history {
+    width: 992px;
+  }
+  #customers {
+    width: fit-content;
+  }
+  #happy_customers {
+    width: fit-content;
+  }
+  #happy_customers > #customers > section {
+    width: 992px;
+  }
+  #happy_customers > #customers .customer {
+    width: 270px;
+  }
+  #hotel_blog {
+    width: fit-content;
+  }
+  #hotel_blog .cards {
+    width: 992px;
+    overflow: hidden;
+  }
+
+  #hotel_blog .cards > .card:first-child > div:first-child {
+    width: 310px;
+    background-position: center;
+  }
+  #hotel_blog .cards > .card:first-child > div:last-child {
+    width: 310px;
+  }
+  #hotel_blog .cards > .card:nth-child(2) > div:first-child {
+    width: 310px;
+    background-position: center;
+  }
+  #hotel_blog .cards > .card:nth-child(2) > div:last-child {
+    width: 310px;
+  }
+  #hotel_blog .cards > .card:nth-child(3) > div:first-child {
+    width: 310px;
+    background-position: center;
+  }
+  #hotel_blog .cards > .card:nth-child(3) > div:last-child {
+    width: 310px;
+  }
+  #subscribe {
+    width: 992px;
+  }
+  #big_circle {
+    left: 530px;
+    top: 220px;
+    width: 430px;
+    height: 430px;
+  }
+  header #tower_img_and_circles > img {
+    width: 270px;
+    left: 600px;
+    top: 260px;
+  }
+  header .small_circle_1 {
+    top: 250px;
+  }
+  header .small_circle_2 {
+    left: 450px;
+  }
+  header .small_circle_3 {
+    left: 430px;
+  }
+  header .small_circle_4 {
+    left: 930px;
+    top: 550px;
+  }
+  header #tower_img_and_circles > #chart > img {
+    left: 395px;
+  }
+  header #payment {
+    top: 180px;
+    left: 850px;
+  }
+  header > div:first-child {
+    width: 100%;
+  }
+  header > div:nth-child(2) {
+    width: 100%;
+    padding: 0 50px 0 50px;
+  }
+  header #topmenu {
+    width: 90%;
+  }
+  footer > #links {
+    width: 992px;
+  }
+}
+
+@media screen and (min-width: 1220px) and (max-width: 1440px) {
+  .wrapper {
+    max-width: 1200px;
+  }
+  footer > #links {
+    width: 1000px;
+  }
+  footer > section:last-child {
+    width: 1200px;
+  }
+  .check_availability {
+    max-width: 1100px;
+    height: 694px;
+    margin: 150px auto 0 auto;
+  }
+  #big_circle {
+    left: 600px;
+    top: 250px;
+    width: 470px;
+    height: 470px;
+  }
+  header #tower_img_and_circles > img {
+    width: 270px;
+    left: 700px;
+    top: 260px;
+  }
+  header .small_circle_1 {
+    top: 250px;
+  }
+  header .small_circle_2 {
+    top: 480px;
+    left: 550px;
+  }
+  header .small_circle_3 {
+    left: 1100px;
+    top: 320px;
+  }
+  header .small_circle_4 {
+    left: 1100px;
+    top: 550px;
+  }
+  header #tower_img_and_circles > #chart > img {
+    top: 530px;
+    left: 470px;
+  }
+  header #payment {
+    top: 200px;
+    left: 950px;
+  }
+}
