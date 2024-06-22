@@ -1,6 +1,6 @@
 @media screen and (max-width: 400px) {
   .wrapper {
-    max-width: 300px;
+    width: 100%;
   }
   #topmenu {
     display: none;
@@ -21,13 +21,13 @@
     height: 35px;
   }
   header {
-    max-width: 300px;
     height: 1100px;
     gap: 10px;
     transition: all 1s ease;
   }
   header > div:nth-child(2) {
     flex-direction: column;
+    width: 100%;
   }
 
   header #tower_img_and_circles > img {
@@ -45,9 +45,9 @@
     width: fit-content;
     margin: 0;
   }
-  #discover_hotel>h1 {
-  font-size: 1.8rem;
-  line-height: 2;
+  #discover_hotel > h1 {
+    font-size: 1.8rem;
+    line-height: 2;
   }
   #topmenu_mobile > #items_container {
     max-width: 220px;
@@ -93,24 +93,26 @@
   }
   .reservation_btn_mobile {
     font-size: 1.4rem;
-    padding:15px;
+    padding: 15px;
   }
   .check_availability {
     height: fit-content;
     max-width: 250px;
-    margin:150px auto 0 auto;
+    margin: 150px auto 0 auto;
   }
   .check_availability > div:first-child > h2 {
     margin: 0;
     width: 250px;
+    font-size: 1.8rem;
   }
   .check_availability > div:first-child > p {
-    margin:100px 0 0 0;
+    margin: 25px 0 0 0;
     width: 250px;
   }
   .check_availability > div:nth-child(2) {
     flex-direction: column;
     width: 250px;
+    height: 700px;
   }
   .check_availability #form_container {
     width: 250px;
@@ -136,17 +138,19 @@
   .check_availability_img_container {
     width: 100%;
     height: fit-content;
+    border-radius: 8px;
   }
   .check_availability_img_container > img {
     width: 100%;
     height: auto;
+    top: 100px;
   }
 
   #our_popular_room {
     height: fit-content;
     max-width: 300px;
   }
-  #our_popular_room >h1{
+  #our_popular_room > h1 {
     font-size: 1.7rem;
     line-height: 1.5;
   }
@@ -170,26 +174,25 @@
   }
   #our_popular_room > #cards .card_content > div > i > span {
     font-weight: 600;
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 
   .our_services {
     max-width: 300px;
     height: fit-content;
   }
-  .our_services>h1 {
-font-size: 1.7rem;
+  .our_services > h1 {
+    font-size: 1.7rem;
   }
-  
+
   #info {
     max-width: 280px;
   }
   #info h1 {
     font-size: 1.2rem !important;
   }
-  #info p{
-    
-    font-size: .7rem !important;
+  #info p {
+    font-size: 0.7rem !important;
   }
   #services {
     grid-template-columns: 1fr;
@@ -222,7 +225,6 @@ font-size: 1.7rem;
   #discover_history > div:last-child {
     width: 100%;
     height: 400px;
- 
   }
   #discover_history > div:first-child > div {
     width: 100%;
@@ -281,14 +283,14 @@ font-size: 1.7rem;
     left: 0;
   }
   #customers #happy_customer_2 > div {
-    width:300px;
+    width: 300px;
     height: 435px;
     background-size: cover;
     border-radius: 0;
     opacity: 0.7;
   }
   #happy_customers > #customers .customer {
-    width:400px;
+    width: 400px;
   }
   #happy_customers > #customers > section > div:first-child {
     display: none;
@@ -319,6 +321,8 @@ font-size: 1.7rem;
   #hotel_blog {
     max-width: 300px;
     height: fit-content;
+    margin-top: 220px;
+
   }
   #hotel_blog .cards {
     max-width: 300px;
@@ -328,11 +332,11 @@ font-size: 1.7rem;
     height: 500px !important;
     width: 300px;
   }
-  #hotel_blog .cards > .card > div:first-child{
+  #hotel_blog .cards > .card > div:first-child {
     height: 700px !important;
     width: 300px !important;
     background-size: cover !important;
-   }
+  }
   #hotel_blog .cards > .card > div:last-child {
     height: 100%;
     width: 300px;
@@ -369,13 +373,13 @@ font-size: 1.7rem;
     width: 240px;
     line-height: 1.5;
   }
-  #subscribe > form > div{
-    width:270px;
+  #subscribe > form > div {
+    width: 270px;
   }
   #subscribe > form > div > button {
     width: 90px;
     height: 45px;
-    font-size: .8rem;
+    font-size: 0.8rem;
     position: absolute;
     border-radius: 6px;
     background: rgba(136, 156, 185, 1);
@@ -384,7 +388,7 @@ font-size: 1.7rem;
     border: none;
   }
   #subscribe > form > div > input {
-    font-size: .8rem;
+    font-size: 0.8rem;
     width: 250px !important;
   }
   footer > #links {
@@ -417,31 +421,29 @@ font-size: 1.7rem;
   }
   #copyright {
     max-width: 300px;
-    margin: 0;
+    margin: auto;
     padding: 0;
     display: flex;
     align-items: center;
   }
-  #copyright>div{
-   width: 100%;
-   flex-direction: column;
+  #copyright > div {
+    width: 100%;
+    flex-direction: column;
   }
 
-  #copyright a{
-    font-size: .6rem;
-   }
+  #copyright a {
+    font-size: 0.6rem;
+  }
 }
-@media screen and (min-width:400px) and (max-width: 592px) {
+@media screen and (min-width: 400px) and (max-width: 750px) {
   .wrapper {
-    max-width: 100%;
+    width: 100%;
   }
   #topmenu {
     display: none;
-    
   }
   #topmenu_mobile {
     display: block;
-
   }
 
   .buttons {
@@ -450,14 +452,14 @@ font-size: 1.7rem;
   }
   .buttons button {
     width: 100px;
-    font-size: .8rem;
+    font-size: 0.8rem;
     height: 35px;
   }
-  .buttons img{
+  .buttons img {
     width: 35px !important;
   }
   header {
-    max-width: 536px;
+    max-width: 100%;
     height: 1100px;
     gap: 10px;
     transition: all 1s ease;
@@ -520,7 +522,7 @@ font-size: 1.7rem;
     margin: auto;
     padding: 0 40px;
   }
-  header #discover_hotel h1{
+  header #discover_hotel h1 {
     font-size: 1.8rem;
     width: 100%;
   }
@@ -528,7 +530,7 @@ font-size: 1.7rem;
     font-size: 1.1rem;
     font-weight: 800;
   }
-  #items_container{
+  #items_container {
     width: 320px;
   }
   #items_container > ul > li button {
@@ -536,24 +538,24 @@ font-size: 1.7rem;
   }
   .check_availability {
     height: fit-content;
-    max-width: 400px;
-    margin:150px auto 0 auto;
+    max-width: 350px;
+    margin: 150px auto 0 auto;
   }
   .check_availability > div:first-child > h2 {
     margin: 0;
-    width: 400px;
-    line-height: 2px;
+    width: 350px;
+    font-size: 2.4rem;
   }
   .check_availability > div:first-child > p {
-    margin: 0;
-    width: 400px;
+    margin: 25px 0 0 0;
+    width: 350px;
   }
   .check_availability > div:nth-child(2) {
     flex-direction: column;
-    width: 400px;
+    width: 350px;
   }
   .check_availability #form_container {
-    width: 400px;
+    width: 350px;
     display: grid;
     place-items: center;
   }
@@ -570,7 +572,7 @@ font-size: 1.7rem;
     height: 75px;
   }
   .check_availability #check_form button {
-    width: 400px;
+    width: 350px;
     height: 75px;
     font-size: 1.2rem;
   }
@@ -596,13 +598,13 @@ font-size: 1.7rem;
   }
   #our_popular_room {
     height: fit-content;
-    max-width: 400px;
+    max-width: 350px;
   }
-  #our_popular_room>h1{
-    font-size: 2.1rem;
+  #our_popular_room > h1 {
+    font-size: 2.4rem;
   }
-  #our_popular_room>p{
-    font-size: .9rem;
+  #our_popular_room > p {
+    font-size: 0.9rem;
   }
   #our_popular_room > #cards {
     flex-direction: column;
@@ -628,26 +630,25 @@ font-size: 1.7rem;
   }
 
   .our_services {
-    max-width: 400px;
+    max-width: 350px;
     height: fit-content;
   }
-  
-  .our_services>h1{
+
+  .our_services > h1 {
     font-size: 2.1rem;
   }
   #info {
-    max-width: 400px;
+    max-width: 350px;
   }
   #info h1 {
     font-size: 1.8rem !important;
   }
-  #info p{
-    
-    font-size: .9rem !important;
+  #info p {
+    font-size: 0.9rem !important;
   }
   #services {
     grid-template-columns: 1fr;
-    max-width: 400px;
+    max-width: 350px;
   }
   #services > .service_card > .header > h2 {
     line-height: 55px;
@@ -671,20 +672,19 @@ font-size: 1.7rem;
   }
   #discover_history {
     flex-direction: column-reverse;
-    max-width: 400px;
+    max-width: 350px;
     height: 1200px;
   }
-  #discover_history .buttons{
+  #discover_history .buttons {
     display: flex !important;
   }
   #discover_history > div:last-child {
     width: 100%;
-    height: 400px;
- 
+    height: 350px;
   }
   #discover_history > div:first-child > div {
     width: 100%;
-    height: 400px;
+    height: 350px;
   }
   #discover_history > div:first-child > div p {
     font-size: 1.2rem;
@@ -697,22 +697,29 @@ font-size: 1.7rem;
     width: 55px;
     height: 55px;
   }
-.buttons span {
+  .buttons span {
     font-size: 1.1rem;
     font-weight: 800;
   }
   #happy_customers {
-    width: 400px;
+    width: 350px;
+  }
+  #happy_customers h2 {
+    font-size: 1.8rem !important;
+    width: fit-content;
   }
   #happy_customers > div:first-child {
-    max-width: 400px;
+    max-width: 350px;
+  }
+  #happy_customers > div:first-child>p{
+    width: 350px;
   }
   #happy_customers .customer span {
     font-family: work_sans;
     font-size: 18px;
   }
   #happy_customers > #customers > section > div {
-    width: 400px;
+    width: 350px;
   }
   #happy_customers .customer {
     height: fit-content;
@@ -720,33 +727,36 @@ font-size: 1.7rem;
     align-self: baseline;
   }
   #happy_customers .customer p {
+    font-family: merriweather;
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 35px;
+    letter-spacing: 2px;
+    text-align: left;
     width: 350px;
-    color: #404040 !important;
-    font-weight: bold !important;
+    color: #302d2d;
     text-shadow: 0px 1px 0px #7d7d7d;
-    letter-spacing: 3px !important;
     opacity: 0.7;
   }
   main {
-    max-width: 576px;
+    max-width: 370px;
     overflow: hidden;
   }
 
   #happy_customer_2 {
-    border-radius: 0;
     position: absolute;
     top: 0px;
     left: 0;
   }
   #customers #happy_customer_2 > div {
-    width:400px;
+    width: 350px;
     height: 435px;
     background-size: cover;
     border-radius: 0;
     opacity: 0.5;
   }
   #happy_customers > #customers .customer {
-    width:400px;
+    width: 350px;
   }
   #happy_customers > #customers > section > div:first-child {
     display: none;
@@ -761,39 +771,32 @@ font-size: 1.7rem;
     height: 120px;
     background-size: contain;
   }
-  #happy_customers .customer p {
-    font-family: merriweather;
-    font-size: 1.2rem;
-    font-weight: 200;
-    line-height: 35px;
-    letter-spacing: 0.02em;
-    text-align: left;
-    color: rgba(109, 117, 137, 1);
-  }
+
   #happy_customers > #customers > section > div {
     height: 435px;
   }
 
   #hotel_blog {
-    max-width: 400px;
+    margin-top: 220px;
+    max-width: 350px;
     height: fit-content;
   }
   #hotel_blog .cards {
-    max-width: 400px;
+    max-width: 350px;
     overflow: hidden;
   }
   #hotel_blog .cards > .card {
     height: 500px !important;
-    width: 400px;
+    width: 350px;
   }
-  #hotel_blog .cards > .card > div:first-child{
+  #hotel_blog .cards > .card > div:first-child {
     height: 700px !important;
-    width: 400px !important;
+    width: 350px !important;
     background-size: cover !important;
-   }
+  }
   #hotel_blog .cards > .card > div:last-child {
     height: 100%;
-    width: 400px;
+    width: 350px;
     padding: 10px 20px;
   }
   #hotel_blog .cards > .card .content {
@@ -814,23 +817,23 @@ font-size: 1.7rem;
     display: flex;
     flex-direction: column;
     height: 316px;
-    width: 400px;
+    width: 350px;
   }
   #subscribe {
-    max-width: 400px;
+    max-width: 350px;
   }
   #subscribe h5 {
     font-size: 1rem;
   }
   #subscribe h3 {
     font-size: 1.5rem;
-    width: 400px;
+    width: 350px;
   }
-  #subscribe > form > div{
-    width: 370px;
+  #subscribe > form > div {
+    width: 330px;
   }
   #subscribe > form > div > button {
-    width: 130px;
+    width: 100px;
     height: 45px;
     font-size: 1.1rem;
     position: absolute;
@@ -845,7 +848,7 @@ font-size: 1.7rem;
     width: 300px !important;
   }
   footer > #links {
-    max-width: 400px;
+    max-width: 350px;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
     overflow: hidden;
@@ -872,26 +875,25 @@ font-size: 1.7rem;
     gap: 10px;
   }
   #copyright {
-    max-width: 400px;
+    max-width: 350px;
     margin: auto;
     padding: 5px;
     display: flex;
     align-items: center;
   }
-  #copyright>div{
-   width: 100%;
+  #copyright > div {
+    width: 100%;
+    flex-direction: column;
   }
-  #copyright h2{
-   font-size: .8rem;
-
+  #copyright h2 {
+    font-size: 1rem;
   }
-  #copyright a{
-    font-size: .7rem;
- 
-   }
+  #copyright a {
+    font-size: 0.7rem;
+  }
 }
 
-@media screen and (min-width: 592px) and (max-width: 1000px) {
+@media screen and (min-width: 750px) and (max-width: 1000px) {
   #topmenu {
     display: none;
   }
@@ -899,28 +901,16 @@ font-size: 1.7rem;
     display: block;
   }
 
-  .check_availability_img_container {
-    max-width: 500px;
-    position: relative;
-    overflow: hidden;
-  }
-  .check_availability_img_container > img {
-    position: absolute;
-    bottom: 0;
-    max-width: 500px;
-    left: -150px;
-    animation: transform 15s infinite linear;
-  }
   @keyframes transform {
-   0%{
-    left: -150px;
-   }
-  50%{
-    left: 0px;
-   }
-   100%{
-    left: -150px;
-   }
+    0% {
+      left: -150px;
+    }
+    50% {
+      left: 0px;
+    }
+    100% {
+      left: -150px;
+    }
   }
   .navbar {
     max-width: 400px;
@@ -960,13 +950,13 @@ font-size: 1.7rem;
     top: 350px;
     width: 150px;
     z-index: 1;
-    opacity: .8;
+    opacity: 0.8;
   }
   header #payment {
     top: 480px;
     left: 415px;
     z-index: 1;
-    opacity: .5;
+    opacity: 0.5;
   }
   header > div:first-child {
     width: 100%;
@@ -979,13 +969,13 @@ font-size: 1.7rem;
     width: 90%;
   }
   main {
-    max-width: 576px;
+    max-width: 740px;
     overflow: hidden;
     padding: 0 20px;
   }
   #our_popular_room {
     height: fit-content;
-    max-width: 556px;
+    max-width: 700px;
   }
   #our_popular_room > #cards {
     flex-direction: column;
@@ -993,53 +983,54 @@ font-size: 1.7rem;
   }
   #our_popular_room > #cards > .card {
     flex-direction: row;
+    justify-content: space-between;
   }
   #our_popular_room > #cards > .card > img {
     width: auto;
     height: 150px;
     border-radius: 8px;
     object-fit: contain;
-    flex: 1;
   }
   #our_popular_room > #cards .card_content {
     height: 150px;
     justify-content: space-between;
     border: none;
     box-shadow: 0 0 30px 3px #828282;
-    flex: 3;
+    padding: 0 0 0 200px;
+    background: #e8eae7;
   }
   #our_popular_room > #cards .card_content > div > i > span {
     font-weight: 600;
   }
 
   .our_services {
-    width: 556px;
+    width: 700px;
     height: fit-content;
   }
   #services {
     grid-template-columns: repeat(2, 1fr);
   }
   #info {
-    width: 556px !important;
+    width: 700px !important;
   }
 
   #discover_history {
     flex-direction: column-reverse;
-    width: 556px;
+    width: 700px;
     height: 1200px;
   }
   #discover_history > div:last-child {
-    width:556px;
+    width: 700px;
     height: 400px;
     background-size: cover;
     background-position: center;
     border-radius: 8px;
   }
   #discover_history > div:first-child {
-    width: 556px;
+    width: 700px;
   }
   #discover_history > div:first-child > div {
-    width: 556px;
+    width: 700px;
     height: 400px;
   }
   #discover_history > div:first-child > div p {
@@ -1064,34 +1055,45 @@ font-size: 1.7rem;
     font-weight: 800;
     width: 100px;
   }
-#items_container{
-width: 520px;
-}
+  #items_container {
+    width: 520px;
+  }
+  .check_availability_img_container {
+    max-width: 400px;
+    position: relative;
+    overflow: hidden;
+  }
+  .check_availability_img_container > img {
+    position: absolute;
+    bottom: 0;
+    max-width: 700px;
+    left: -150px;
+    animation: transform 15s infinite linear;
+  }
   .check_availability {
-    max-width: 556px;
+    max-width: 700px;
     height: fit-content;
     margin: 150px 0 0 0;
   }
   .check_availability > div:first-child {
-    width: 556px;
+    width: 700px;
   }
   .check_availability > div:last-child {
-    width: 556px;
+    width: 700px;
   }
 
   .check_availability > div:first-child > h2 {
-    width: 556px;
+    width: 700px;
     margin: 0;
   }
   .check_availability > div:first-child > p {
-    width: 556px;
+    width: 700px;
     text-align: center;
     margin: auto;
   }
   #form_container {
     width: 300px !important;
     height: 550px;
-    flex: 1;
   }
 
   #check_form {
@@ -1107,7 +1109,7 @@ width: 520px;
     height: 50px;
   }
   .check_availability #check_form button {
-    width:270px;
+    width: 270px;
     height: 50px;
   }
 
@@ -1118,7 +1120,7 @@ width: 520px;
     right: 80px;
   }
   .check_availability #check_form #select_container::after {
-    right:75px;
+    right: 75px;
     width: 30px;
   }
   #customers > section > div:first-child {
@@ -1126,7 +1128,7 @@ width: 520px;
     display: none !important;
   }
   #customers > section > div:nth-child(2) {
-margin: auto;
+    margin: auto;
   }
   #customers > section > div:last-child {
     width: 200px;
@@ -1137,27 +1139,27 @@ margin: auto;
     gap: 15px;
   }
   #discover_history {
-    width: 556px;
+    width: 700px;
   }
 
   #customers {
-    width: 556px;
+    width: 700px;
   }
   #happy_customers {
     width: fit-content;
   }
   #happy_customers > #customers > section {
-    width: 556px;
+    width: 700px;
   }
   #happy_customers > #customers .customer {
     width: 200px;
   }
   #hotel_blog {
-    width: 556px;
+    width: 700px;
     height: fit-content;
   }
   #hotel_blog .cards {
-    width: 556px;
+    width: 700px;
     overflow: hidden;
   }
   #hotel_blog .cards > .card > div:last-child {
@@ -1179,21 +1181,21 @@ margin: auto;
   #hotel_blog .cards > .card {
     display: flex;
     height: 316px;
-    width: 556px;
+    width: 700px;
   }
 
   #subscribe {
-    width: 556px;
+    width: 700px;
   }
   #links {
-    max-width: 556px;
+    max-width: 700px;
     margin-left: auto;
     margin-right: auto;
     border: 1px dashed rgba(108, 107, 107, 0.5) !important;
-  
-  grid-template-columns: 1fr !important;
-height: fit-content !important;
-}
+
+    grid-template-columns: 1fr !important;
+    height: fit-content !important;
+  }
   #links > .intro p {
     width: 190px;
   }
@@ -1206,7 +1208,7 @@ height: fit-content !important;
   }
   #copyright {
     margin: 50px auto;
-    width: 556px;
+    width: 700px;
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -1229,9 +1231,7 @@ height: fit-content !important;
   main {
     max-width: 992px;
   }
-  .wrapper {
-    max-width: 992px;
-  }
+
   #our_popular_room {
     max-width: 992px;
   }
@@ -1362,9 +1362,6 @@ height: fit-content !important;
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1440px) {
-  .wrapper {
-    max-width: 1220px;
-  }
   footer > #links {
     width: 1000px;
   }
