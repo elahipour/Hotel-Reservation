@@ -20,6 +20,16 @@
     font-size: 1rem;
     height: 35px;
   }
+  #discover_hotel .buttons {
+    gap: 10px;
+  }
+  #discover_hotel .buttons button {
+    width: 110px;
+  }
+  #discover_hotel .buttons span {
+    width: 100px;
+font-size: .9rem;
+  }
   header {
     height: 1100px;
     gap: 10px;
@@ -33,11 +43,11 @@
   header #tower_img_and_circles > img {
     width: 170px;
     top: 680px;
-    left: 60px;
+    left: 25%;
   }
   #big_circle {
     top: 750px;
-    left: 10px;
+    left: 10%;
     width: 280px;
     height: 280px;
   }
@@ -53,14 +63,19 @@
     max-width: 220px;
   }
   header #tower_img_and_circles > #chart > img {
-    top: 800px;
-    left: 0px;
+    top: 660px;
+    left: 40%;
     object-fit: contain;
+    z-index: 999;
+    opacity: 0.75;
+    height: 140px;
   }
   header #payment {
-    top: 670px;
-    left: 25px;
+    top: 710px;
+    left: 12%;
     box-shadow: 1px 2px 10px 2px rgb(255, 234, 234);
+    opacity: 0.75;
+    height: 140px;
   }
   header .small_circle_1 {
     left: 150px;
@@ -145,7 +160,19 @@
     height: auto;
     top: 100px;
   }
-
+  .check_availability #check_form div:first-child::after {
+    width: 35px;
+    right: 3px;
+  }
+  .check_availability #check_form div:nth-child(2)::after {
+    width: 35px;
+    right: 3px;
+  }
+  .check_availability #check_form #select_container::after {
+    top: 45px;
+    width: 35px;
+    right: 3px;
+  }
   #our_popular_room {
     height: fit-content;
     max-width: 300px;
@@ -157,12 +184,16 @@
   #our_popular_room > #cards {
     flex-direction: column;
     gap: 25px;
+    height: fit-content;
+  }
+  #our_popular_room > #cards > .card {
+    gap: 0;
+    height: fit-content;
   }
   #our_popular_room > #cards > .card > img {
     width: auto;
     height: 250px;
     border-radius: 8px;
-    object-fit: contain;
     border-radius: 8px 8px 0 0;
     flex: 1;
   }
@@ -219,16 +250,20 @@
   #discover_history {
     flex-direction: column-reverse;
     max-width: 300px;
-    height: 1200px;
+    height: 700px;
   }
 
   #discover_history > div:last-child {
     width: 100%;
     height: 400px;
+    border-radius: 8px;
   }
   #discover_history > div:first-child > div {
     width: 100%;
     height: 400px;
+  }
+  #discover_history > div:first-child > div > h1 {
+    font-size: 1.8rem;
   }
   #discover_history > div:first-child > div p {
     font-size: 1.2rem;
@@ -252,6 +287,13 @@
   #happy_customers > div:first-child {
     max-width: 300px;
   }
+  #happy_customers > div:first-child > h2 {
+    max-width: 300px;
+    font-size: 1.7rem;
+  }
+  #happy_customers > div:first-child > p {
+    max-width: 300px;
+  }
   #happy_customers .customer span {
     font-family: work_sans;
     font-size: 18px;
@@ -263,13 +305,19 @@
     height: fit-content;
     padding: 30px;
     align-self: baseline;
+    width: 300px;
   }
   #happy_customers .customer p {
+    font-family: merriweather;
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 35px;
+    letter-spacing: 2px;
+    text-align: left;
     width: 250px;
-    color: #f8f8f8 !important;
-    text-shadow: 0px 1px 2px #000000;
-    letter-spacing: 1px !important;
-    opacity: 0.5;
+    color: #302d2d;
+    text-shadow: 0px 1px 0px #7d7d7d;
+    opacity: 0.7;
   }
   main {
     max-width: 300px;
@@ -289,14 +337,17 @@
     border-radius: 0;
     opacity: 0.7;
   }
-  #happy_customers > #customers .customer {
-    width: 400px;
-  }
+
   #happy_customers > #customers > section > div:first-child {
     display: none;
   }
+
   #happy_customers > #customers > section > div:nth-child(3) {
     display: none;
+  }
+  #happy_customers > #customers > section > div:nth-child(2) {
+    border-radius: 8px;
+    overflow: hidden;
   }
   #happy_customer_1 > div,
   #happy_customer_2 > div,
@@ -305,24 +356,16 @@
     height: 120px;
     background-size: contain;
   }
-  #happy_customers .customer p {
-    font-family: merriweather;
-    font-size: 1.2rem;
-    font-weight: 200;
-    line-height: 35px;
-    letter-spacing: 0.02em;
-    text-align: left;
-    color: rgba(109, 117, 137, 1);
-  }
+
   #happy_customers > #customers > section > div {
     height: 435px;
+    margin-top: 50px;
   }
 
   #hotel_blog {
     max-width: 300px;
     height: fit-content;
     margin-top: 220px;
-
   }
   #hotel_blog .cards {
     max-width: 300px;
@@ -470,15 +513,15 @@
   }
 
   header #tower_img_and_circles > img {
-    width: 270px;
+    width: 300px;
     top: 600px;
-    left: 150px;
+    left: -10%;
   }
   #big_circle {
     top: 550px;
-    left: 80px;
-    width: 400px;
-    height: 400px;
+    left:-40%;
+    width: 700px;
+    height: 700px;
   }
   #discover_hotel {
     width: fit-content;
@@ -487,14 +530,21 @@
   #topmenu_mobile > #items_container {
     max-width: 376px;
   }
+
   header #tower_img_and_circles > #chart > img {
-    top: 800px;
-    left: 0px;
+    top: auto;
+    bottom: 0;
+    right: -10px;
+left: auto;
     object-fit: contain;
+    z-index: 999;
+
   }
   header #payment {
-    top: 600px;
-    left: 380px;
+    top: auto;
+    left: auto;
+    bottom: 160px;
+    right: 10px;
     box-shadow: 1px 2px 10px 2px rgb(255, 234, 234);
   }
   header .small_circle_1 {
@@ -579,6 +629,7 @@
   .check_availability_img_container {
     width: 100%;
     height: fit-content;
+    border-radius: 8px;
   }
   .check_availability_img_container > img {
     width: 100%;
@@ -673,7 +724,7 @@
   #discover_history {
     flex-direction: column-reverse;
     max-width: 350px;
-    height: 1200px;
+    height: 750px;
   }
   #discover_history .buttons {
     display: flex !important;
@@ -686,12 +737,16 @@
     width: 100%;
     height: 350px;
   }
+  #discover_history > div:first-child > div > h1 {
+    font-size: 1.8rem;
+  }
   #discover_history > div:first-child > div p {
     font-size: 1.2rem;
   }
   #discover_history > div:last-child {
     background-size: cover;
     background-position: center;
+    border-radius: 8px;
   }
   #discover_history .buttons > i > img {
     width: 55px;
@@ -703,6 +758,7 @@
   }
   #happy_customers {
     width: 350px;
+    margin-top: 150px;
   }
   #happy_customers h2 {
     font-size: 1.8rem !important;
@@ -711,7 +767,7 @@
   #happy_customers > div:first-child {
     max-width: 350px;
   }
-  #happy_customers > div:first-child>p{
+  #happy_customers > div:first-child > p {
     width: 350px;
   }
   #happy_customers .customer span {
@@ -753,7 +809,7 @@
     height: 435px;
     background-size: cover;
     border-radius: 0;
-    opacity: 0.5;
+    opacity: 0.7;
   }
   #happy_customers > #customers .customer {
     width: 350px;
@@ -763,6 +819,11 @@
   }
   #happy_customers > #customers > section > div:nth-child(3) {
     display: none;
+  }
+  #happy_customers > #customers > section > div:nth-child(2) {
+    margin-top: 50px !important;
+    border-radius: 8px;
+    overflow: hidden;
   }
   #happy_customer_1 > div,
   #happy_customer_2 > div,
@@ -946,17 +1007,18 @@
     top: 250px;
   }
   header #tower_img_and_circles > #chart > img {
-    left: 400px;
-    top: 350px;
-    width: 150px;
+    left: auto;
+    top: auto;
+    right: -12px;
+    bottom: 0;
     z-index: 1;
-    opacity: 0.8;
   }
   header #payment {
-    top: 480px;
-    left: 415px;
+    top: auto;
+    bottom: 160px;
+    left: auto;
+    right: 10px;
     z-index: 1;
-    opacity: 0.5;
   }
   header > div:first-child {
     width: 100%;
